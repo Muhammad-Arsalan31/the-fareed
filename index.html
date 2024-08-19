@@ -16,7 +16,23 @@
   <link rel="stylesheet" href="css/vendor/aos.css">
   <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
   <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+  <script>function initApollo() {
+      var n = Math.random().toString(36).substring(7), o = document.createElement("script");
+      o.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + n, o.async = !0, o.defer = !0,
+        o.onload = function () { window.trackingFunctions.onLoad({ appId: "66c1e4a850258903f159b344" }) },
+        document.head.appendChild(o)
+    } initApollo();</script>
 
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K8348RT2');</script>
+  <!-- End Google Tag Manager -->
 
   <!-- Theme Style -->
   <link rel="stylesheet" href="css/style.css">
@@ -29,7 +45,10 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
-
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8348RT2" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <nav class="unslate_co--site-mobile-menu">
     <div class="close-wrap d-flex">
       <a href="#" class="d-flex ml-auto js-menu-toggle">
@@ -109,13 +128,14 @@
       </nav>
       <!-- END nav -->
 
-      <div class="cover-v1 jarallax" style="background-image: url('images/hero-img.jpg');" id="home-section">
+      <div class="cover-v1 jarallax" id="home-section">
         <div class="container">
           <div class="row align-items-center">
 
             <div class="mx-auto text-center">
-              <h1 class="heading gsap-reveal-hero">Dream<span style="color:#D63447">.</span> Create<span
-                  style="color:#D63447">.</span> Inspire<span style="color:#D63447">.</span></h1>
+              <h1 class="heading gsap-reveal-hero" style="font-weight: lighter;">Dream<span
+                  style="color:#D63447">.</span>
+                Create<span style="color:#D63447">.</span> Inspire<span style="color:#D63447">.</span></h1>
               <!-- <h2 class="subheading gsap-reveal-hero">I’m Hassan Fareed a Creative Designer based in Canada</h2> -->
             </div>
 
@@ -510,8 +530,8 @@
               </div>
 
               <div class="testimonial-author-info">
-                <img src="images/person_man_1.jpg" alt="Image">
-                <h3>Mubashira Fawa</h3>
+                <img src="images/person_man_2.jpg" alt="Image">
+                <h3>Mubashir Fawad</h3>
                 <span class="d-block position">Student of LUM’s</span>
               </div>
 
@@ -533,7 +553,7 @@
               </div>
 
               <div class="testimonial-author-info">
-                <img src="images/person_man_2.jpg" alt="Image">
+                <img src="images/person_woman_2.jpg" alt="Image">
                 <h3>Rumaisa Sohail</h3>
                 <span class="d-block position"> SQA engineer @ Reuters</span>
               </div>
@@ -573,7 +593,7 @@
               </div>
 
               <div class="testimonial-author-info">
-                <img src="images/person_woman_1.jpg" alt="Image">
+                <img src="images/person_man_1.jpg" alt="Image">
                 <h3>Zain Omer</h3>
                 <span class="d-block position">Software Engineer @ Oracle VBCS</span>
               </div>
